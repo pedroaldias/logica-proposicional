@@ -7,7 +7,7 @@ Um motor de Lógica Proposicional interativo escrito em Python. Este projeto inc
 
 O projeto é dividido em um core lógico (`logic_engine.py`) e uma interface iterativa (`menu.py`). Ele suporta as seguintes operações:
 
-* **Tabela-Verdade e Equivalência:** Gera tabelas-verdade completas e verifica a equivalência semântica entre duas proposições ($O(2^n)$).
+* **Tabela-Verdade e Equivalência:** Gera tabelas-verdade completas e verifica a equivalência semântica entre duas proposições (O(2^n)).
 * **Equivalência Algébrica:** Converte fórmulas para a Forma Normal Negativa (FNN), ordenando operandos comutativos para gerar uma "chave canônica" e comparar estruturas de árvores sintáticas.
 * **Conversão para FNC (Forma Normal Conjuntiva):** Transforma qualquer fórmula aplicando distributividade de $\lor$ sobre $\land$.
 * **Conversão para FND (Forma Normal Disjuntiva):** Transforma qualquer fórmula aplicando distributividade de $\land$ sobre $\lor$.
