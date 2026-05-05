@@ -1,12 +1,9 @@
-# PropLogic Engine 🧠
+# Lógica Proposicional
 
 Um motor de Lógica Proposicional interativo escrito em Python. Este projeto inclui um avaliador completo de fórmulas lógicas, conversor para formas normais, e um SAT Solver nativo baseado no algoritmo DPLL. Ele vem acompanhado de uma interface de linha de comando (CLI) amigável e colorida para facilitar o uso e o aprendizado.
-
-Ideal para estudantes de Ciência da Computação, Matemática e entusiastas de lógica formal.
-
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 O projeto é dividido em um core lógico (`logic_engine.py`) e uma interface iterativa (`menu.py`). Ele suporta as seguintes operações:
 
@@ -19,7 +16,7 @@ O projeto é dividido em um core lógico (`logic_engine.py`) e uma interface ite
 
 ---
 
-## 📖 Sintaxe Suportada
+##  Sintaxe Suportada
 
 O parser utiliza recursão à esquerda (*recursive-descent*) em uma única passagem ($O(n)$) e suporta as seguintes operações lógicas, respeitando a precedência padrão:
 
@@ -36,7 +33,7 @@ O parser utiliza recursão à esquerda (*recursive-descent*) em uma única passa
 
 ---
 
-## 🚀 Como usar
+##  Como usar
 
 ### Pré-requisitos
 * **Python 3.10** ou superior (utiliza `match/case` e tipagem moderna).
