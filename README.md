@@ -45,10 +45,10 @@ Clone o repositório e execute o arquivo `menu.py` no seu terminal:
 
 ```bash
 # Clone o repositório
-git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+git clone https://github.com/pedroaldias/logica-proposicional.git
 
 # Entre na pasta
-cd NOME_DO_REPOSITORIO
+cd logica-proposicional
 
 # Execute a interface
 python menu.py
